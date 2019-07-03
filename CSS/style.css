@@ -1,8 +1,39 @@
+
 * {
   box-sizing: border-box;
   margin:0;
 }
 
 html body {
+max-width: 1200px;
+margin:0 auto;
+}
 
+.container {
+  margin:0 auto;
+  padding:20px;
+}
+
+header {
+
+  text-align:center;
+  padding:20px;
+
+}
+ul {
+  list-style: none;
+  font-size: 18px;
+  padding-left:0;
+  background-color: whitesmoke;
+}
+li, p{
+  padding:10px;
+}
+p {
+max-width: 800px;
+margin: auto;
+}
+h2, h3, h4, h5, h6 {
+  text-align:center;
+  padding:20px;
 }
