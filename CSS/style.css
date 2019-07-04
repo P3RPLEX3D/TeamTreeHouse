@@ -8,7 +8,11 @@ html body {
 max-width: 1200px;
 margin:0 auto;
 }
-
+#main-header {
+  background-color: maroon;
+  color: whitesmoke;
+box-shadow: 0px 0px 3px lightgrey;
+}
 .container {
   margin:0 auto;
   padding:20px;
@@ -26,14 +30,25 @@ ul {
   padding-left:0;
   background-color: whitesmoke;
 }
-li, p{
+li {
   padding:10px;
+  border: 1px solid silver;
+  text-align:center;
 }
 p {
 max-width: 800px;
 margin: auto;
+padding: 20px;
 }
 h2, h3, h4, h5, h6 {
   text-align:center;
   padding:20px;
+}
+nav {
+box-shadow: 0px 0px 1px silver;
+}
+.content {
+margin: 20px;
+box-shadow: 0px 0px 3px silver
+
 }
